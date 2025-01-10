@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Feriados</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/script.js" defer></script>
+</head>
+<body>
+<section id="falso-header">
+
+    <video autoplay muted loop id="video-bg">
+
+        <source src="assets/img/world_map.mp4" type="video/mp4">
+
+    </video>
+
+    
+
+        <header>
+            
+                <h1>Consulta de Feriados</h1>
+            
+            <div class="ctt">
+                <nav>
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Sobre">Sobre</a></li>
+                        <li><a href="#Contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <ul> <a href="">&copy; Cauã Almanara</a></ul>
+        </header>
+
+</section>   
+
+ 
+<section class="sec1">
+<div class="box-customize">
+    <h2>
+    Aqui você pode consultar os Feriados do ano todo 
+    de qualquer país!
+    </h2>
+     <p>
+        <br>
+       <li> -  São mais de 100 países para poder consultar! <br>
+   
+        - Descubra feriados nunca vistos! <br>
+   
+     - Escolha o melhor para sua Viagem!</li> <br> <br>
+    
+    A API usada para este site é da Nager.Date fornece dados sobre 
+    feriados públicos de diversos países. <br> Esta API é 
+    útil para aplicações que necessitam de informações
+    precisas sobre datas festivas, ajudando <br> no planejamento
+    de negócios, viagens e outras atividades.
+    </p>
+</div>
+
+
+<div class="holiday-form">
+    
+
+   <div class="select-btns">
+    <h3 for="countrySelect">Escolha um país:</h3>
+        <select id="countrySelect">
+            <!-- Opções de países serão carregadas aqui -->
+        </select>
+        <button id="btn1" class="btns" onclick="getHolidays()">Obter Feriados</button>
+        <button id="clear-button" class="btns" type="button"> Limpar</button>
+    </div>
+</div>
+    <div id="holidays">
+        <!-- Os feriados serão exibidos aqui -->
+     </div>
+ 
+
+
+
+ <div class="imagens2">
+        <p class="p1"> Programe a sua Viagem! </p> 
+        <img class="img2" src="assets/img/beach.jpg" alt="img1">
+        <img class="img2" src="assets/img/calendar.jpg" alt="img2">
+        <p> Saiba os feriados do Mundo Todo!</p>
+        <img class="img2" src="assets/img/christmas.jpg" alt="img3">
+        <img class="img2" src="assets/img/image.jpg" alt="img4">
+
+    
+</section>
+<footer id="division">
+
+        <div class="dv1">
+            <ul> DEVELOPER <li>Site de <a href="">Cauã Almanara</a></li>
+            </ul>
+            
+            </div>
+        <div class="dv1">
+            <ul> CONTATO
+                <li>instagram: <a href="">almanara</a></li>
+                <li>phone: <a href="">9 999999</a></li>
+                <li>e-mail: <a href="">almanara@gmail.com</a></li>
+            </ul>
+
+        </div>
+        <div class="dv1">
+            <ul> Termos e Condições</ul>
+          <p>  &copy; 2024 Consulta de Feriados. Todos os direitos reservados.</p>
+        </div>
+    
+</footer>
+</body>
+</html>
